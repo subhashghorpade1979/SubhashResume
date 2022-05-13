@@ -1,0 +1,52 @@
+.slds-theme_success{
+    color: #fff;
+    background-color: #04844b;
+    padding: 0.25rem 0.5rem;
+    border-radius: 15rem;
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: normal;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+}
+.technology{
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-card{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    display: flex;
+}
+.project-date{
+    text-align: end;
+    font-size: 0.8825rem;
+    color: #080707;
+}
+.location{
+    display: flex;
+    margin: 4px 0;
+}
+.slds-text-title_bold{
+    font-size: .895rem;
+    font-weight: 700;
+    color: #006dcc;
+}
+.slds-p-around_xx-small{
+    padding: 0.25rem;
+}
+.project-title{
+    display: flex;
+}
+.mobile_project-card_date{
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .mobile_project-card_date{
+        display: block;
+    }
+    .project-card_date{
+        display: none;
+    }
+}

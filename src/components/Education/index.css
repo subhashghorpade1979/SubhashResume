@@ -1,0 +1,19 @@
+.education_list{
+    display: flex;     
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.university_icon_section{
+    margin-right: 20px;
+}
+.university_title_bold{
+    font-size: .895rem;
+    font-weight: 700;
+    color: #080707;
+}
+.educationicon{
+    background-color: #3c97dd;
+    border-radius: 3px;
+    padding: 3px;
+    color: #fff;
+}

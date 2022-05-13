@@ -1,0 +1,8 @@
+.hightlight{
+    flex-wrap: wrap;   
+    padding-left: 2%;
+}
+.hightlight_item 
+{
+    list-style: initial
+}
